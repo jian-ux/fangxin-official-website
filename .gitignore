@@ -1,0 +1,11 @@
+dist/
+work/
+evidence/
+*.log
+
+node_modules/
+.env
+.env.*
+*.key
+*.pem
+*.secret

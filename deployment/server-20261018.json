@@ -1,0 +1,687 @@
+{
+  "verified_at": "2026-10-18T06:18:09.521Z",
+  "scope": "User-authorized static demonstration on existing HTTP/HTTPS ports; no production acceptance claim.",
+  "url": "https://47.92.248.31/official/zh/",
+  "http_url": "http://47.92.248.31/official/zh/",
+  "artifact": {
+    "source_commit": "3d71c5b4490973cb2ddfec25e93cd20d6d737e2c",
+    "files": 146,
+    "dist_bytes": 312573237,
+    "archive_bytes": 309181232,
+    "archive_sha256": "69113b293c97f18ae8fcc77878236f416440041aff25e56b388166e0d76b5372"
+  },
+  "release": "/opt/fangxin-official-website/releases/20261018-3d71c5b",
+  "current": "/opt/fangxin-official-website/current",
+  "backend": "127.0.0.1:8091",
+  "public_ports": [
+    80,
+    443
+  ],
+  "public_checks": {
+    "verified_at": "2026-10-18T06:13:46.182834+00:00",
+    "url": "https://47.92.248.31/official/zh/",
+    "http_https_routes": 108,
+    "files": [
+      {
+        "file": "assets/botanical-focus-small.webp",
+        "http_sha256": "625427ec114e7dc27dd3d512404e43a726c8555f4d557cbd32dd26547ddf7050"
+      },
+      {
+        "file": "assets/botanical-focus.webp",
+        "http_sha256": "cd009273643e0ab22bcc2728a90680b3205942e2f35e44e3788e55edc697a7dc"
+      },
+      {
+        "file": "assets/catalog/beauty-001.webp",
+        "http_sha256": "58c1ceb1afad92436e04c91fc19b40dd4c8f2c0e3842d8496db5eae514a82598"
+      },
+      {
+        "file": "assets/catalog/beauty-002.webp",
+        "http_sha256": "b8f352b0aaa2d6eb9e38ecb907e56e9f0c353952b5c17120c8a48949f330aabf"
+      },
+      {
+        "file": "assets/catalog/beauty-004.webp",
+        "http_sha256": "11c4a3ce1bf345feb356bb5d3ec92cb234b603c746bfa5007a4be116d9c6ade2"
+      },
+      {
+        "file": "assets/catalog/beauty-011.webp",
+        "http_sha256": "e6134906367869fbfdfaf93bf5bba87462c87ed534af2b9cc633812391945626"
+      },
+      {
+        "file": "assets/catalog/beauty-020.webp",
+        "http_sha256": "cddb8ce53d16103d48d45f5ca9b25385bf9115db4feed61947f9a77873313e94"
+      },
+      {
+        "file": "assets/catalog/beauty-021.webp",
+        "http_sha256": "6a4661de63c8ab12423d5deaa692b251660534839a129a91d875b0a663db5c6b"
+      },
+      {
+        "file": "assets/catalog/care-029.webp",
+        "http_sha256": "ac71bfb2492fd79be87607afbfd880c49fbb28525b01d76e5bd5f1a22993e9dc"
+      },
+      {
+        "file": "assets/catalog/care-033.webp",
+        "http_sha256": "7fdc258a3aa643724bb6f5b6727cd89256b2e1bc56d6ed9b8bce4305ce5d7f49"
+      },
+      {
+        "file": "assets/catalog/care-035.webp",
+        "http_sha256": "e56a247c9e9d1ef0c5e4a1514cd1137f001cd95321e98f291a0076812300f19d"
+      },
+      {
+        "file": "assets/catalog/care-037.webp",
+        "http_sha256": "0dd6f32cbc63dcb0a891fd3b84c0b87ba2192c674e73603f1c75a64f8685988d"
+      },
+      {
+        "file": "assets/catalog/care-045.webp",
+        "http_sha256": "ee1f9e18d6db2234771e37222b890818120fded8917e3a27e7a95460ae3ef00a"
+      },
+      {
+        "file": "assets/catalog/care-046.webp",
+        "http_sha256": "41e98aaa2c1c63f619cbc4b80329d07a336a631b59e1ec27c3089c2a304a314d"
+      },
+      {
+        "file": "assets/catalog/care-053.webp",
+        "http_sha256": "ae5b361e41c6eaddcdc7de37026da57163e0534f976eb48cb20798b17e9f2f34"
+      },
+      {
+        "file": "assets/catalog/care-054.webp",
+        "http_sha256": "21a6cd507868b59a32e1f07a05844ef90a5f7fa263a0cba27002ab09d1847d8c"
+      },
+      {
+        "file": "assets/catalog/care-055.webp",
+        "http_sha256": "f627140e58f053ffca97e2e6a3d3c18ca266f15877f2adbb933d5016fb3d63fd"
+      },
+      {
+        "file": "assets/catalog/care-058.webp",
+        "http_sha256": "02cbb85d5cf78ec4bd79c89abcd28b17639e43d22a5ea8c35a69084d4633491d"
+      },
+      {
+        "file": "assets/catalog/care-062.webp",
+        "http_sha256": "3728ff3fcae9f21ad34fc7c4b04a795a51d5f65dd6d92f49f8b72eed8e5321b1"
+      },
+      {
+        "file": "assets/catalog/care-063.webp",
+        "http_sha256": "f53a9457867fa893d173f416d0084fc45e2bea3b6c5c0e2b4ad7bb48cb09817f"
+      },
+      {
+        "file": "assets/catalog/food-001.webp",
+        "http_sha256": "228976559ff345c529c8993f454d1405643b27b09757aa38a7cc3b0361c3bbc8"
+      },
+      {
+        "file": "assets/catalog/food-003.webp",
+        "http_sha256": "e785f33ca006df05300b69c078a2fdfcdad7dc7f3d8095200b93bc234558354d"
+      },
+      {
+        "file": "assets/catalog/food-004.webp",
+        "http_sha256": "45f03f5b60bd841793168ebbf10814d587565adba3ea2805260e751cf2706dc0"
+      },
+      {
+        "file": "assets/catalog/food-010.webp",
+        "http_sha256": "87a269c256e21847299e7d4c815871b22a5e87b8bea70df4b2fa8465691f0413"
+      },
+      {
+        "file": "assets/catalog/food-011.webp",
+        "http_sha256": "1720df43cc247ac8fdeccc92981f7341748490f4743c11faf730cb27118e4a1c"
+      },
+      {
+        "file": "assets/catalog/food-013.webp",
+        "http_sha256": "c7c751d88d85d6cb94760afb054e9cc64e530b497ee18ae30a7af525f95cea72"
+      },
+      {
+        "file": "assets/catalog/food-019.webp",
+        "http_sha256": "067f6b312b0636a0ad5c93e5c8f1594db775286e6ce1d42f83256b8c22404580"
+      },
+      {
+        "file": "assets/catalog/food-021.webp",
+        "http_sha256": "2f582d6afd30d1dd6a05872ab96a49a933f74e9ea8158d39afaae9f52e83b223"
+      },
+      {
+        "file": "assets/catalog/food-029.webp",
+        "http_sha256": "4007fbf3ba88fa080a9624d26d1a4041998083483af11a5d7c25c651ddf36869"
+      },
+      {
+        "file": "assets/catalog/food-039.webp",
+        "http_sha256": "e9215ef98f1e92fa3079ec92f650594705b6ec046fedcec2f867aed24844e19f"
+      },
+      {
+        "file": "assets/catalog/food-043.webp",
+        "http_sha256": "cf2ddc86f9cda9e4aac938741bf97fbfb11f3f6e465cbc89fea2bf0db5075095"
+      },
+      {
+        "file": "assets/catalog/incense-13.webp",
+        "http_sha256": "db7f3fb94a9754d12a8a81b6f97e2fe1c3e0da3f6efc52a12f1590fdaf8ade12"
+      },
+      {
+        "file": "assets/catalog/incense-14.webp",
+        "http_sha256": "79bbd3a6276dfe89c005e4abb3c5b171b889630102601d81fa4f9e59bc2b4dd9"
+      },
+      {
+        "file": "assets/catalog/incense-28.webp",
+        "http_sha256": "42572a73ac5d222fd1130726792f1d919e4ed5f4676b8586979d11623921f8a4"
+      },
+      {
+        "file": "assets/catalog/incense-29.webp",
+        "http_sha256": "8c4668b02ec3d3cdd08a9a5bdad30aedfd822ad9f289acfc41bb27b3425c522b"
+      },
+      {
+        "file": "assets/catalog/incense-3.webp",
+        "http_sha256": "fc11e6d1d0cdd63672d0105bf537cca9e04cca3e5f9e492085a8d55f5874903b"
+      },
+      {
+        "file": "assets/catalog/incense-34.webp",
+        "http_sha256": "8133780f7a5c213fcf2a21d2f3db90b6770ac7486c88b111a20ca174ddd6fccb"
+      },
+      {
+        "file": "assets/coast.webp",
+        "http_sha256": "14353301ad7f62f10e9f1dc74c7d1972e1d63f0d298a4aa3553046a42cdd45ac"
+      },
+      {
+        "file": "assets/content-consultation.webp",
+        "http_sha256": "6ee64eb548453f92db8e71c218285864abab429fef81b6ac9363a097e6d6a442"
+      },
+      {
+        "file": "assets/content-facial-care.webp",
+        "http_sha256": "032de365182d23c6dca076207801f0a16ecdf33a5fe8b47e314104a75f344781"
+      },
+      {
+        "file": "assets/content-pear-soup.webp",
+        "http_sha256": "0e2bac80954809e5a92062771630b8a166be81a17339f110928a78b8e3cbe0b4"
+      },
+      {
+        "file": "assets/content-shanlan-tea.webp",
+        "http_sha256": "0ad6ec32ea75ec8a199f117c97845b83eb63cc7b93796d48586e83888a187554"
+      },
+      {
+        "file": "assets/diet.webp",
+        "http_sha256": "05741c5b1864e11ae74ce48f110a53e3af38acdb95f746db184adc818da02147"
+      },
+      {
+        "file": "assets/films/C01.mp4",
+        "range_checks": 2,
+        "original_sha256": "c77606bb712789f57188b53208e7f1ecc0271dc6198a4704e5233c837f80efd0"
+      },
+      {
+        "file": "assets/films/C01.webp",
+        "http_sha256": "6163269653a673662db122480dc2e32d05bd08d16ac092d6714146d29a9c112f"
+      },
+      {
+        "file": "assets/films/C03.mp4",
+        "range_checks": 2,
+        "original_sha256": "1be7ca867f82b458e9699fc8d8aea25d2c5c5d2558fbae4b3677a6eadaabd106"
+      },
+      {
+        "file": "assets/films/C03.webp",
+        "http_sha256": "56f62aca85d32f37f9056beffdb85f884d0630e379026d031390eaae29f7da73"
+      },
+      {
+        "file": "assets/films/M01.mp4",
+        "range_checks": 2,
+        "original_sha256": "9cb3541bca91d332f9a72c4a449b282524634b03a4d8f2065efa4536dfd58625"
+      },
+      {
+        "file": "assets/films/M01.webp",
+        "http_sha256": "9328c63f626799c5bd256848858e334c0be1e99b4a841c5369c2e9f67ef672b8"
+      },
+      {
+        "file": "assets/films/M03.mp4",
+        "range_checks": 2,
+        "original_sha256": "a3b76e51bdf9317822ffd9fa41632818f693c9679308677e1befbfe861c949e8"
+      },
+      {
+        "file": "assets/films/M03.webp",
+        "http_sha256": "d688401fa332ae2a578409d025df53716ea2d7b920b0660e494cf59909dea8c2"
+      },
+      {
+        "file": "assets/films/M04.mp4",
+        "range_checks": 2,
+        "original_sha256": "c6f04aec4c5273966a5498e0c0d6782eb4f81df6b7944e34c9d0653e3af98736"
+      },
+      {
+        "file": "assets/films/M04.webp",
+        "http_sha256": "f9a51b03c2717a9b52731ee79c301d8a539b3fb2026b3f02c09cf751da479de4"
+      },
+      {
+        "file": "assets/films/M05.mp4",
+        "range_checks": 2,
+        "original_sha256": "b4fc773cf6e272f121a69ade45761d5e2674b18e2494d56e65cf42510e2bba90"
+      },
+      {
+        "file": "assets/films/M05.webp",
+        "http_sha256": "0fcd09c6963bfafd5ac37dd755070d816e4e72dc6a9d674b2bfe8ddcb0e67252"
+      },
+      {
+        "file": "assets/films/M07.mp4",
+        "range_checks": 2,
+        "original_sha256": "4f48ee7fb00bbbcce26e53b04e8f6431d1f53f8230b12805b4f8e18b9a61635d"
+      },
+      {
+        "file": "assets/films/M07.webp",
+        "http_sha256": "782f1e960804ec8a2c5042b9a98894888a2ad2d41d4ced36829162f79738df08"
+      },
+      {
+        "file": "assets/films/M12.mp4",
+        "range_checks": 2,
+        "original_sha256": "d73bd87625923d50a735ec180c2e84251db8b8c1a2c5c5da1a12fff3c133d1d8"
+      },
+      {
+        "file": "assets/films/M12.webp",
+        "http_sha256": "5c95491272df110ffb592e3e7200fc08bf002d410d3f5158b9a8ba0755190985"
+      },
+      {
+        "file": "assets/films/M15.mp4",
+        "range_checks": 2,
+        "original_sha256": "b33abd36cb459785f40966f7381a0c239e1c1f39fca4a9a9851fc63dc8515ce2"
+      },
+      {
+        "file": "assets/films/M15.webp",
+        "http_sha256": "7fd6d99b71e5f96c96a9a38b7dfb51d88b6e06d0569ead4e2c5277d20519fcf8"
+      },
+      {
+        "file": "assets/films/N01.mp4",
+        "range_checks": 2,
+        "original_sha256": "78ab1e20d8d7ade3969a45f19a917af9d43c3c385e577fad614a3368cbcb1742"
+      },
+      {
+        "file": "assets/films/N01.webp",
+        "http_sha256": "4211334abae2b10b2f8a999b4df7c7f44834eb79ae5bbab68f2695bd637445c7"
+      },
+      {
+        "file": "assets/films/N02.mp4",
+        "range_checks": 2,
+        "original_sha256": "86b8478a7893e858e1c40a57790e280878f107b64478fa332c453834059a1a60"
+      },
+      {
+        "file": "assets/films/N02.webp",
+        "http_sha256": "963b1182f60eb24ec50732fbc57bd53739abc2a006ec409936318b75c04ac39b"
+      },
+      {
+        "file": "assets/films/N03.mp4",
+        "range_checks": 2,
+        "original_sha256": "61dfd2f20c3b7b6ce5f4e4f7ceae90b7ad4f4d1d25da56607a19bdcfb32e10fc"
+      },
+      {
+        "file": "assets/films/N03.webp",
+        "http_sha256": "7efc6dd620e802c6b6ca8812dece6a72f78d50d3a81c39238e07184327126afe"
+      },
+      {
+        "file": "assets/films/Z01.mp4",
+        "range_checks": 2,
+        "original_sha256": "0cab32e36e82592b1dc6c3046e7e9228ff4ce72f3a2df5238f446df614b114af"
+      },
+      {
+        "file": "assets/films/Z01.webp",
+        "http_sha256": "3d8126b03e3afa9374421c5ab70ce32b1edf456e5d94b9fb7cb3a1a5d6cc5c4f"
+      },
+      {
+        "file": "assets/films/Z03.mp4",
+        "range_checks": 2,
+        "original_sha256": "3c55ef81b826435396e35c52a24e36cb042e3cefe77dea95fabdb012b74388bc"
+      },
+      {
+        "file": "assets/films/Z03.webp",
+        "http_sha256": "eb5975be5ab72cfa21ad3d0a1a4abd9b046cd1e9022edff4cc96c90c909e347b"
+      },
+      {
+        "file": "assets/fonts/coverage.json",
+        "http_sha256": "2ab9bb492cf07c779c16890cb91be3e1908b889f8f256ba80c291d44964e4782"
+      },
+      {
+        "file": "assets/fonts/hainan-international.woff2",
+        "http_sha256": "ece625423d185e858152c44dd42a88bb59333a92a157f5a665ea16b4017ed389"
+      },
+      {
+        "file": "assets/fonts/hainan-sans.woff2",
+        "http_sha256": "fcccc33604fdc7899bcbd2a1c1e255008d1462bcd12458f754d691881fa36aab"
+      },
+      {
+        "file": "assets/fonts/notosans-OFL.txt",
+        "http_sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+      },
+      {
+        "file": "assets/fonts/notosanssc-OFL.txt",
+        "http_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+      },
+      {
+        "file": "assets/herbs.webp",
+        "http_sha256": "a7364041be79c7cd9138e348d294300e28b832f58f2db998491ef7cd06014ce8"
+      },
+      {
+        "file": "assets/incense.webp",
+        "http_sha256": "c7f2bc1fb0031248952e0f4bd2e5c104dfc162edfce32a420e8572da74db78c1"
+      },
+      {
+        "file": "assets/logo-small.webp",
+        "http_sha256": "08d1f7059429da2df50fd17518f0fd55e0cc75d6de29eeaa8dae50e07fe5c1a6"
+      },
+      {
+        "file": "assets/logo.webp",
+        "http_sha256": "651c6da0a7b51f46ce42bce0b1d3b0d2564885467657bfbf5b7ea5cf99bc86ae"
+      },
+      {
+        "file": "assets/mini-trial.png",
+        "http_sha256": "f65eee57d9f7453c752fed56bca0c23d65a2a5f4894b77bae4a3bc2addf47928"
+      },
+      {
+        "file": "assets/welcome-poster.webp",
+        "http_sha256": "bb18fd9272c46f5fbae702d23e47c10c9775d1244eb11339e0f735a275d9d2a8"
+      },
+      {
+        "file": "assets/welcome.mp4",
+        "range_checks": 2,
+        "original_sha256": "3f0eb352690d16c8eae94548b114875a54d99afaa41f116ce45cc91fcb032ff8"
+      },
+      {
+        "file": "assets/wellness-focus-small.webp",
+        "http_sha256": "6af4a841a2e1755342474202a5efd1687b44335d7eacd3539e2b48b8f08632b7"
+      },
+      {
+        "file": "assets/wellness-focus.webp",
+        "http_sha256": "0ab005007d00ec56724bbca207a827347618bb505a1fbf69253b708b61bc07ea"
+      },
+      {
+        "file": "assets/xiaoli.webp",
+        "http_sha256": "5944bf0da6446fd7c87fe20ad3e71d5bf154a4d6c04c407a55a40666a0d4ddd5"
+      },
+      {
+        "file": "client.js",
+        "http_sha256": "64fbc12ddd76de6fab89ac5b937a1e5969833190a2fb9fcbe0edbac0746d1676"
+      },
+      {
+        "file": "en/404/index.html",
+        "http_sha256": "152bbd68b779f8b27ea57c79f2431adb8f8458dcf6be735ec0197723962d5ec3"
+      },
+      {
+        "file": "en/about/index.html",
+        "http_sha256": "b5b9741d9204d582d1bf6e3ba5e680b16220dbabd508606ddbcef81a00a81420"
+      },
+      {
+        "file": "en/explore/beauty/index.html",
+        "http_sha256": "fa522827156f17a9ffd28c9d45ca5340abe6b8b688297121bf63fd3132844952"
+      },
+      {
+        "file": "en/explore/diet/index.html",
+        "http_sha256": "f53041ead2f2cad86cc5ef05cf962568bb6c111a23c707018443b4c6fa447b15"
+      },
+      {
+        "file": "en/explore/incense/index.html",
+        "http_sha256": "f5556e155bf8189ea1f24d87cfd1f687830c00602531da14c3a03d9a62af0adf"
+      },
+      {
+        "file": "en/explore/index.html",
+        "http_sha256": "43904a23519673e7c07ed4906dc2ad5435051df4d12f159a66b105b8967a86a0"
+      },
+      {
+        "file": "en/explore/limiao/index.html",
+        "http_sha256": "b106384b8b7409b0ff0d3024402296d389ef6c2aa8b49175edb1346917cccd82"
+      },
+      {
+        "file": "en/explore/nursing/index.html",
+        "http_sha256": "3021ecf0130e44e2b59876ce3bdac84fd075026e0e0bbe621b4704c3311bfe66"
+      },
+      {
+        "file": "en/explore/selection/index.html",
+        "http_sha256": "c07160edf2728ecd3b2b98a2a84757bcb1e18060ca5de9e01e605adaef367bbe"
+      },
+      {
+        "file": "en/explore/training/index.html",
+        "http_sha256": "0068814c8635db7ea0d4dfe601d3a0aa78040852d1fb38a502cd43c220dd9856"
+      },
+      {
+        "file": "en/explore/wellness/index.html",
+        "http_sha256": "e0229df601f1e14de35e64ccb7db5892db36e261f069435aa3c17f2448b987a0"
+      },
+      {
+        "file": "en/hainan/index.html",
+        "http_sha256": "0e0e3306aaca32d80ca8d4273192b8acca84b3d1d976986feffc26e39fd3bc39"
+      },
+      {
+        "file": "en/index.html",
+        "http_sha256": "9299ce195420f73fef819ec6978f141cd9af3bdaa26ee451cb6fdc46c0d1a0af"
+      },
+      {
+        "file": "en/news/index.html",
+        "http_sha256": "042dab18661fedcaffb43d8548e2c1c57568ce8af8c6f04df64f2573ca33c5ed"
+      },
+      {
+        "file": "en/news/li-herbal-documentary/index.html",
+        "http_sha256": "1683e2924a60d94bae91c3d0e5203a3854e5a924c53713a6a8edb23ce0426015"
+      },
+      {
+        "file": "en/partners/index.html",
+        "http_sha256": "045b373a22d7231b07d66776b9d0077ecaaea68ced85e70a207f6f482ea3218b"
+      },
+      {
+        "file": "en/privacy/index.html",
+        "http_sha256": "51da1d114d37c26ccb199de79722f256ca651e5e4ec4762c5f40ac3f52f3ad8f"
+      },
+      {
+        "file": "en/xiaoli/index.html",
+        "http_sha256": "c0b2d6d83160e0e1c8c017b941afe4f19eaafd71c2dabc959c493684f0e41d80"
+      },
+      {
+        "file": "index.html",
+        "http_sha256": "a69c64020bd6446969a034c21b5649f668cba067099758e889e3d3de19d1a3fc"
+      },
+      {
+        "file": "mini-code.js",
+        "http_sha256": "d23b62c6c8ee3190932988714e309539de79c524a7ac72f52e11563ace1f35eb"
+      },
+      {
+        "file": "robots.txt",
+        "http_sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+      },
+      {
+        "file": "routes.json",
+        "http_sha256": "2f0fc50079915f255a7a1b7700deccf6a70b1eb0def2822506e0425e57b14257"
+      },
+      {
+        "file": "ru/404/index.html",
+        "http_sha256": "6ba8973d68309270274cc3873fd288c467a10d50c4b3ccd5dbb3acebe191c1c0"
+      },
+      {
+        "file": "ru/about/index.html",
+        "http_sha256": "98396b20b4ffce45bc51fe76d56b12c5bce974ac389b8791ab3b5d4271d41b23"
+      },
+      {
+        "file": "ru/explore/beauty/index.html",
+        "http_sha256": "d5ce34b6c70c6afde67c62639fa17d9952acbcdf1a74a7a26638994dda5ac64b"
+      },
+      {
+        "file": "ru/explore/diet/index.html",
+        "http_sha256": "aaee2d56952b23cea46e7256a3f03f0593554f1b7bbaf364e6a6d8a79e75d9a5"
+      },
+      {
+        "file": "ru/explore/incense/index.html",
+        "http_sha256": "c403c437b701f84739e1c9dfa6a3ffd0bf82e57b8e043f57549eb0167844b0ee"
+      },
+      {
+        "file": "ru/explore/index.html",
+        "http_sha256": "734deeb54eba55a76405572579df3d3b702abf1a53be87736f50ee8fdb6c0401"
+      },
+      {
+        "file": "ru/explore/limiao/index.html",
+        "http_sha256": "a209780a5b074e16bd467c2c628d43cf79141bdb5426fd26562f59119e34e7e1"
+      },
+      {
+        "file": "ru/explore/nursing/index.html",
+        "http_sha256": "b06aad72083c345c0a52444263f534c9eb382cc2037eb22f5454276ff45402c3"
+      },
+      {
+        "file": "ru/explore/selection/index.html",
+        "http_sha256": "91b7b3d35c2a65f9ed0550b5e682bda611a2eff6d52788d0e12c78a20b13dcf3"
+      },
+      {
+        "file": "ru/explore/training/index.html",
+        "http_sha256": "36e7889efb688cb5ebd829f8a1a01b2910996bab1ca623cb9ba7ff8151870df9"
+      },
+      {
+        "file": "ru/explore/wellness/index.html",
+        "http_sha256": "5e5c8dc7a5e72d782e2400c80696588f7c865c1c2d44bcf7d37792121ea5e74b"
+      },
+      {
+        "file": "ru/hainan/index.html",
+        "http_sha256": "2dc757e4e4dfd48a32afb0e7b7820d81c1bd3594840259461bcf2ebf3ad2f1ac"
+      },
+      {
+        "file": "ru/index.html",
+        "http_sha256": "8e474f4ec21c9b4aa034102a395a5cb54c88cd56684d6b26384f5cfc1b841183"
+      },
+      {
+        "file": "ru/news/index.html",
+        "http_sha256": "9907a23258060d11b81142a05258ee6e097e41ee458938612fda08af76aed99c"
+      },
+      {
+        "file": "ru/news/li-herbal-documentary/index.html",
+        "http_sha256": "79c7ebd5746a92c91f9312b372d77fb981e0a324c6bc6ceb5ee8d1824020ba48"
+      },
+      {
+        "file": "ru/partners/index.html",
+        "http_sha256": "ec225c48313f80f0734901cd1729a8c3e43fb2896378263168f5bba0fbe89b15"
+      },
+      {
+        "file": "ru/privacy/index.html",
+        "http_sha256": "74dd70bf007cfa2a58f771142eaaf0d4d716803885de5f6069732bb78ce5612f"
+      },
+      {
+        "file": "ru/xiaoli/index.html",
+        "http_sha256": "fadbbf83e51ae0293c8ca950881875c6e612c4b2f8b94e6e03e37da1aa17a579"
+      },
+      {
+        "file": "styles.css",
+        "http_sha256": "18d29b875f5f3a49797dca7096bd8578d7b12ced78ea38dca318e48697919c93"
+      },
+      {
+        "file": "zh/404/index.html",
+        "http_sha256": "3e4753d6a6aa2a976d0449ec0c7dda4e5bd016caccf7a1d7f624fab72147c56e"
+      },
+      {
+        "file": "zh/about/index.html",
+        "http_sha256": "d683b7acdcb3f474a735095735ec14b9f321f3a3f2ab37fb19c7d7f6462baf35"
+      },
+      {
+        "file": "zh/explore/beauty/index.html",
+        "http_sha256": "fa532538e5d2bc9a025719a936c1594cdf01672d144841baeb0ebdebc7945d30"
+      },
+      {
+        "file": "zh/explore/diet/index.html",
+        "http_sha256": "3d92eb7257cee6b7cb6695d12f07779eb390d532acdfea17ec20c947c6dab8f3"
+      },
+      {
+        "file": "zh/explore/incense/index.html",
+        "http_sha256": "c200c596634be9f48b936c883e0c181b88bc74f200457e45b504ebbc5e931c2f"
+      },
+      {
+        "file": "zh/explore/index.html",
+        "http_sha256": "3c3050969a33e8e0f3dbb5b489ca2a4844e3af959a3b0371a4d4ac530a34043a"
+      },
+      {
+        "file": "zh/explore/limiao/index.html",
+        "http_sha256": "488ab09658c41adccf5be76b25fe54accea2045fb309492a108b46e71b11b6a1"
+      },
+      {
+        "file": "zh/explore/nursing/index.html",
+        "http_sha256": "3b0d18b49d29d6755f6fed3dbe98138f2efddf4c0af89dc3b12ba458c0d73a28"
+      },
+      {
+        "file": "zh/explore/selection/index.html",
+        "http_sha256": "a32bc5147a44cf7c05e1e8893641a8fb53b5912341b85316445ab50410ef7808"
+      },
+      {
+        "file": "zh/explore/training/index.html",
+        "http_sha256": "b16cc547e7e8d00858943a1a0bdfb7778f44abe84696c7f80b11be1d1048252d"
+      },
+      {
+        "file": "zh/explore/wellness/index.html",
+        "http_sha256": "9963a7b4039caa6c5465af63e42e1f7e7c64c1bd6c792ee7f1cf1e498062ccd6"
+      },
+      {
+        "file": "zh/hainan/index.html",
+        "http_sha256": "31c0b12828ceaffb1e2e5a615be1fbe450d49284483424043aee90b667f716e8"
+      },
+      {
+        "file": "zh/index.html",
+        "http_sha256": "a532f90da35a59faabdd64ec868d88a3ab58b59b0bec275fd57421fa93c0dbe7"
+      },
+      {
+        "file": "zh/news/index.html",
+        "http_sha256": "561c2144b64c86a0df6703a1db5564e891625a78a3d843c38331ef7912f33b01"
+      },
+      {
+        "file": "zh/news/li-herbal-documentary/index.html",
+        "http_sha256": "24b92f61dfa5118fb83b095bbabd3541aba7b53a99ac4e82d2e2e4cab7ca2629"
+      },
+      {
+        "file": "zh/partners/index.html",
+        "http_sha256": "4a6a4d0da0c5c4b67514376074689e1adba7d01748ea0c906c056256b9faabb7"
+      },
+      {
+        "file": "zh/privacy/index.html",
+        "http_sha256": "9cd7f50ff8f42236fc20ac9898be8a6ed5811eefdb544d3dc0fa3628f4fb438d"
+      },
+      {
+        "file": "zh/xiaoli/index.html",
+        "http_sha256": "38fdc1ecafd22343d1f1c30e4f9c890bf701bb1c122489f239065f11bcac8870"
+      }
+    ],
+    "range_checks": 30,
+    "unexpected_path_checks": 4,
+    "redirect_checks": 2
+  },
+  "browser_checks": {
+    "home_to_diet": true,
+    "language_switches": [
+      "zh",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "native_detail_open": true,
+    "qr_original_width": 258,
+    "fonts_loaded": true,
+    "video": "M04 play/seek/pause; readyState 4; no media error; short sample only",
+    "mobile_menu": "375x900: home menu to about, collapsed after navigation, no horizontal overflow",
+    "console_errors_or_warnings": 0,
+    "screenshot": ".analysis/website-deploy-20261018/public-home.jpg"
+  },
+  "server_checks": {
+    "nginx_syntax": "passed",
+    "nginx_active": true,
+    "nginx_enabled": true,
+    "existing_configs_preserved": 7,
+    "existing_root_pages_unchanged": 2,
+    "public_8090_removed": true,
+    "disk_available": "7.4G"
+  },
+  "configuration": {
+    "/etc/nginx/conf.d/dingtalk-callback.conf": {
+      "before": "7b836b2b419f26dde41a578921e8a0ba9caff8fdf1aaa6acd6e173268b8d73a0",
+      "after": "2cc31e77188e31134f5052b8cfc5221f213a595c5f76c97773795c9d541175a0"
+    },
+    "/etc/nginx/conf.d/fs-wuye.conf": {
+      "before": "e3b0ce99816297bb35b400d227510de1b6d664bbc614cdf9f134eba5d25b2209",
+      "after": "bb02eae8e1558eeb2fb172c3c5c770caa1245334dcb05e99de6c2354f8bb223d"
+    },
+    "/etc/nginx/conf.d/fangxin-official-website.conf": {
+      "after": "599180bee2810ef83b5962d135bfaad793d7d9e607aa05926e6b8c6c9e2973fa"
+    },
+    "/etc/nginx/snippets/fangxin-official-website.conf": {
+      "after": "7058b7ad8afe4c81cf38ea955f2bc09ba88b22b588621444b566ee2ebd5292fff"
+    }
+  },
+  "routing": "Existing IP vhosts include only the /official location snippet. Native nginx sub_filter rewrites HTML root URLs, srcset, refresh redirect and CSS font URLs under /official; JS modules remain relative and media bytes unchanged. Both 80 and 443 paths are verified. No cloud security-group change.",
+  "rollback": {
+    "command": "bash /opt/fangxin-official-website/rollback.sh",
+    "syntax_checked": true,
+    "executed": false,
+    "guards": "Requires all four current config hashes to match; restores two saved original vhosts, removes only the new backend vhost from active conf.d, nginx -t then graceful reload.",
+    "backups": [
+      "/opt/fangxin-official-website/dingtalk-callback.before-official.conf",
+      "/opt/fangxin-official-website/fs-wuye.before-official.conf"
+    ]
+  },
+  "boundaries": [
+    "Preview/noindex retained.",
+    "No domain purchase, credentials stored, database migration or existing application source changes.",
+    "No claim of real WeChat scan, user aesthetic acceptance, media licensing verification or formal production readiness."
+  ],
+  "prior_attempt": "Standalone 8090 did not receive public requests. User clarified demo use and requested existing access. Final public route is /official on existing ports; 8090 no longer listens. A wildcard-to-loopback reload bind conflict left old workers serving safely; resolved with unused loopback 8091 and verified final configuration."
+}

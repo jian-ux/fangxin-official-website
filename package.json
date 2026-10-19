@@ -1,0 +1,12 @@
+{
+  "name": "fangxin-hainan-official-website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node server.mjs",
+    "test": "node tests/check.mjs && node tests/focus.mjs && node tests/catalog.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

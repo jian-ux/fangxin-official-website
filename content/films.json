@@ -1,0 +1,357 @@
+[
+  {
+    "id": "agarwood",
+    "source": "CCTV",
+    "url": "https://tv.cctv.com/2020/09/01/VIDEMPPOLBo2RHPPzADFMkQv200901.shtml",
+    "duration": "17:04",
+    "zh": {
+      "title": "沉香：一方水土，一缕清香",
+      "text": "央视《远方的家》走进海南屯昌的沉香林。"
+    },
+    "en": {
+      "title": "Agarwood: a scent rooted in place",
+      "text": "CCTV’s Home Far Away explores an agarwood forest in Tunchang, Hainan."
+    },
+    "ru": {
+      "title": "Агаровое дерево: аромат родной земли",
+      "text": "Программа CCTV знакомит с лесом агаровых деревьев в Туньчане на Хайнане."
+    },
+    "mediaId": "C01",
+    "seconds": 1024.86,
+    "video": "/assets/films/C01.mp4",
+    "poster": "/assets/films/C01.webp"
+  },
+  {
+    "id": "food",
+    "source": "CCTV",
+    "url": "https://tv.cctv.com/2019/02/12/VIDE7Su618gnLNg83hKYCNq9190212.shtml",
+    "duration": "03:44",
+    "zh": {
+      "title": "糟粕醋：文昌的家乡味道",
+      "text": "跟随央视《远方的家》，认识海南文昌的地方风味。"
+    },
+    "en": {
+      "title": "Zaopocu: a taste of Wenchang",
+      "text": "Discover Wenchang’s local food culture through CCTV’s Home Far Away."
+    },
+    "ru": {
+      "title": "Цзаопоцу: вкус Вэньчана",
+      "text": "Знакомство с местной кухней Вэньчана в программе CCTV."
+    },
+    "mediaId": "Z03",
+    "seconds": 224.44,
+    "video": "/assets/films/Z03.mp4",
+    "poster": "/assets/films/Z03.webp"
+  },
+  {
+    "id": "herbal",
+    "source": "海南医科大学 / Hainan Medical University",
+    "url": "https://www.muhn.edu.cn/zyxy/info/1051/12315.htm",
+    "duration": "06:36",
+    "zh": {
+      "title": "山海黎医，草本传千年",
+      "text": "从海南医科大学中医学院发布的影像线索，走近黎族医药文化。",
+      "source": "海南医科大学中医学院"
+    },
+    "en": {
+      "title": "Li herbal heritage, on film",
+      "text": "Explore Li herbal culture through a documentary introduced by Hainan Medical University.",
+      "source": "Hainan Medical University · School of TCM"
+    },
+    "ru": {
+      "title": "Лийское травяное наследие в кадре",
+      "text": "Фильм о лийской культуре трав, представленный Хайнаньским медицинским университетом.",
+      "source": "Институт ТКМ Хайнаньского медицинского университета"
+    },
+    "mediaId": "N01",
+    "seconds": 396.89,
+    "video": "/assets/films/N01.mp4",
+    "poster": "/assets/films/N01.webp"
+  },
+  {
+    "id": "yizhi",
+    "mediaId": "N02",
+    "url": "https://www.hainanfp.com/xinwen/2023/show-6356.html",
+    "source": "海南新闻",
+    "medical": false,
+    "zh": {
+      "title": "林下益智，南药故事",
+      "text": "跟随报道走进屯昌，看看林下益智种植与当地产业。",
+      "source": "海南新闻"
+    },
+    "en": {
+      "title": "Yizhi beneath the forest canopy",
+      "text": "A report on yizhi cultivation and the local industry in Tunchang.",
+      "source": "Hainan news"
+    },
+    "ru": {
+      "title": "Альпиния под пологом леса",
+      "text": "Репортаж о выращивании альпинии и местной отрасли в Туньчане.",
+      "source": "Новости Хайнаня"
+    },
+    "seconds": 374.76,
+    "duration": "06:14",
+    "video": "/assets/films/N02.mp4",
+    "poster": "/assets/films/N02.webp"
+  },
+  {
+    "id": "rainforest-craft",
+    "mediaId": "N03",
+    "url": "https://www.chinanews.com/sh/shipin/cns-d/2026/08-10/news1064867.shtml",
+    "source": "中国新闻网",
+    "medical": false,
+    "zh": {
+      "title": "雨林里，寻找黎族药香",
+      "text": "港澳大学生走进雨林，认识黎族药香技艺与地方文化。",
+      "source": "中国新闻网"
+    },
+    "en": {
+      "title": "Discovering Li aromatic craft",
+      "text": "Students explore the rainforest and learn about Li aromatic traditions.",
+      "source": "China News Service"
+    },
+    "ru": {
+      "title": "Лийское ароматическое ремесло",
+      "text": "Студенты знакомятся с тропическим лесом и лийскими ароматическими традициями.",
+      "source": "China News Service"
+    },
+    "seconds": 125.93,
+    "duration": "02:05",
+    "video": "/assets/films/N03.mp4",
+    "poster": "/assets/films/N03.webp"
+  },
+  {
+    "id": "zaopocu",
+    "mediaId": "Z01",
+    "url": "https://www.hainanfp.com/xinwen/2023/show-7741.html",
+    "source": "海南新闻",
+    "medical": false,
+    "zh": {
+      "title": "糟粕醋的风味故事",
+      "text": "《看鉴海南》从地方饮食讲述糟粕醋的由来与风味。",
+      "source": "海南新闻"
+    },
+    "en": {
+      "title": "The story of zaopocu",
+      "text": "A local food report exploring the origins and flavours of zaopocu.",
+      "source": "Hainan news"
+    },
+    "ru": {
+      "title": "История цзаопоцу",
+      "text": "Репортаж о происхождении и вкусе местного блюда.",
+      "source": "Новости Хайнаня"
+    },
+    "seconds": 276.27,
+    "duration": "04:36",
+    "video": "/assets/films/Z01.mp4",
+    "poster": "/assets/films/Z01.webp"
+  },
+  {
+    "id": "incense-craft",
+    "mediaId": "C03",
+    "url": "https://tv.cctv.com/2018/05/05/VIDE6KBOJjZ80tvLkqYWoWtd180505.shtml",
+    "source": "CCTV",
+    "medical": false,
+    "zh": {
+      "title": "沉香造香技艺",
+      "text": "《传承》第二季记录沉香相关传统技艺。",
+      "source": "CCTV"
+    },
+    "en": {
+      "title": "The craft of agarwood incense",
+      "text": "A film from CCTV’s Heritage series about traditional agarwood craft.",
+      "source": "CCTV"
+    },
+    "ru": {
+      "title": "Ремесло агарового благовония",
+      "text": "Фильм CCTV о традиционной работе с агаровым деревом.",
+      "source": "CCTV"
+    },
+    "seconds": 572.44,
+    "duration": "09:32",
+    "video": "/assets/films/C03.mp4",
+    "poster": "/assets/films/C03.webp"
+  },
+  {
+    "id": "stone-moxa",
+    "mediaId": "M01",
+    "url": null,
+    "source": "三亚市中医院",
+    "medical": true,
+    "zh": {
+      "title": "黎药砭石罐综合灸",
+      "text": "认识罐具与项目场景。",
+      "source": "三亚市中医院 · 宣教影像"
+    },
+    "en": {
+      "title": "Li stone-cup moxibustion",
+      "text": "An introduction to the tools and professional setting.",
+      "source": "Sanya TCM Hospital · Educational film"
+    },
+    "ru": {
+      "title": "Лийские каменные банки и прижигание",
+      "text": "Знакомство с инструментами и профессиональным форматом.",
+      "source": "Больница ТКМ Саньи · Учебный фильм"
+    },
+    "seconds": 113.47999999999999,
+    "duration": "01:53",
+    "video": "/assets/films/M01.mp4",
+    "poster": "/assets/films/M01.webp"
+  },
+  {
+    "id": "gourd-cups",
+    "mediaId": "M03",
+    "url": null,
+    "source": "三亚市中医院",
+    "medical": true,
+    "zh": {
+      "title": "藤灸葫芦罐（双罐）",
+      "text": "观察葫芦形罐具的专业演示。",
+      "source": "三亚市中医院 · 宣教影像"
+    },
+    "en": {
+      "title": "Gourd cups: paired technique",
+      "text": "A professional demonstration with gourd-shaped cups.",
+      "source": "Sanya TCM Hospital · Educational film"
+    },
+    "ru": {
+      "title": "Парная техника тыквообразных банок",
+      "text": "Профессиональная демонстрация инструментов.",
+      "source": "Больница ТКМ Саньи · Учебный фильм"
+    },
+    "seconds": 56.17,
+    "duration": "00:56",
+    "video": "/assets/films/M03.mp4",
+    "poster": "/assets/films/M03.webp"
+  },
+  {
+    "id": "head-care",
+    "mediaId": "M04",
+    "url": null,
+    "source": "三亚市中医院",
+    "medical": true,
+    "zh": {
+      "title": "黎药灸砭石头疗",
+      "text": "从宣教中认识头部养护项目。",
+      "source": "三亚市中医院 · 宣教影像"
+    },
+    "en": {
+      "title": "Li stone-tool head care",
+      "text": "An educational introduction to head care.",
+      "source": "Sanya TCM Hospital · Educational film"
+    },
+    "ru": {
+      "title": "Лийский уход за головой",
+      "text": "Учебное знакомство с форматом ухода.",
+      "source": "Больница ТКМ Саньи · Учебный фильм"
+    },
+    "seconds": 65.04,
+    "duration": "01:05",
+    "video": "/assets/films/M04.mp4",
+    "poster": "/assets/films/M04.webp"
+  },
+  {
+    "id": "facial-care",
+    "mediaId": "M05",
+    "url": null,
+    "source": "三亚市中医院",
+    "medical": true,
+    "zh": {
+      "title": "黎药灸砭石美容",
+      "text": "从器具与现场操作认识面部护理。",
+      "source": "三亚市中医院 · 宣教影像"
+    },
+    "en": {
+      "title": "Li stone-tool facial care",
+      "text": "Discover facial care through its tools and demonstration.",
+      "source": "Sanya TCM Hospital · Educational film"
+    },
+    "ru": {
+      "title": "Лийский уход за лицом",
+      "text": "Инструменты и демонстрация ухода за лицом.",
+      "source": "Больница ТКМ Саньи · Учебный фильм"
+    },
+    "seconds": 62.28,
+    "duration": "01:02",
+    "video": "/assets/films/M05.mp4",
+    "poster": "/assets/films/M05.webp"
+  },
+  {
+    "id": "stone-scraping",
+    "mediaId": "M07",
+    "url": null,
+    "source": "三亚市中医院",
+    "medical": true,
+    "zh": {
+      "title": "黎药砭石刮痧",
+      "text": "原声宣教展示砭石器具与操作场景。",
+      "source": "三亚市中医院 · 宣教影像"
+    },
+    "en": {
+      "title": "Li stone-tool gua sha",
+      "text": "An original-language demonstration of stone tools.",
+      "source": "Sanya TCM Hospital · Educational film"
+    },
+    "ru": {
+      "title": "Лийская техника гуаша",
+      "text": "Демонстрация каменных инструментов на языке оригинала.",
+      "source": "Больница ТКМ Саньи · Учебный фильм"
+    },
+    "seconds": 67.92,
+    "duration": "01:07",
+    "video": "/assets/films/M07.mp4",
+    "poster": "/assets/films/M07.webp"
+  },
+  {
+    "id": "pottery-moxa",
+    "mediaId": "M12",
+    "url": null,
+    "source": "三亚市中医院",
+    "medical": true,
+    "zh": {
+      "title": "非遗黎陶铺灸技术",
+      "text": "了解黎陶器具与地方医药文化。",
+      "source": "三亚市中医院 · 宣教影像"
+    },
+    "en": {
+      "title": "Li pottery moxibustion",
+      "text": "An introduction to pottery tools and local medical culture.",
+      "source": "Sanya TCM Hospital · Educational film"
+    },
+    "ru": {
+      "title": "Прижигание с лийской керамикой",
+      "text": "Керамические инструменты и местная медицинская культура.",
+      "source": "Больница ТКМ Саньи · Учебный фильм"
+    },
+    "seconds": 75.49,
+    "duration": "01:15",
+    "video": "/assets/films/M12.mp4",
+    "poster": "/assets/films/M12.webp"
+  },
+  {
+    "id": "bamboo-cups",
+    "mediaId": "M15",
+    "url": null,
+    "source": "三亚市中医院",
+    "medical": true,
+    "zh": {
+      "title": "黎药竹罐",
+      "text": "以竹制器具为线索认识项目。",
+      "source": "三亚市中医院 · 宣教影像"
+    },
+    "en": {
+      "title": "Li bamboo cups",
+      "text": "Explore the procedure through its bamboo tools.",
+      "source": "Sanya TCM Hospital · Educational film"
+    },
+    "ru": {
+      "title": "Лийские бамбуковые банки",
+      "text": "Знакомство с процедурой через бамбуковые инструменты.",
+      "source": "Больница ТКМ Саньи · Учебный фильм"
+    },
+    "seconds": 77.14,
+    "duration": "01:17",
+    "video": "/assets/films/M15.mp4",
+    "poster": "/assets/films/M15.webp"
+  }
+]
