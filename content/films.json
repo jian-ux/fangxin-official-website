@@ -19,7 +19,7 @@
     "mediaId": "C01",
     "seconds": 1024.86,
     "video": "/assets/films/C01.mp4",
-    "poster": "/assets/films/C01.webp"
+    "poster": "/assets/films/C01-cover.webp"
   },
   {
     "id": "food",
@@ -41,7 +41,7 @@
     "mediaId": "Z03",
     "seconds": 224.44,
     "video": "/assets/films/Z03.mp4",
-    "poster": "/assets/films/Z03.webp"
+    "poster": "/assets/films/Z03-cover.webp"
   },
   {
     "id": "herbal",

@@ -1,4 +1,5 @@
 import {isMiniCodeExpired} from './mini-code.js';
+import './xiaoli-greeting.js';
 const menu=document.querySelector('.menu-toggle');
 const nav=document.querySelector('#navigation');
 function closeMenu(){menu.setAttribute('aria-expanded','false');nav.classList.remove('open')}
@@ -33,19 +34,46 @@ document.querySelectorAll('dialog').forEach(dialog=>{
   dialog.addEventListener('click',event=>{if(event.target!==dialog)return;const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close()});
   dialog.addEventListener('close',()=>{dialog.querySelector('video')?.pause();document.body.classList.remove('dialog-open');opener?.focus()});
 });
-const video=document.querySelector('video');
+const video=document.querySelector('#film video');
 const error=document.querySelector('.video-error');
 video.addEventListener('error',()=>{error.hidden=false});
 video.addEventListener('loadeddata',()=>{error.hidden=true});
 document.querySelector('[data-retry]').addEventListener('click',()=>{error.hidden=true;video.load()});
 
+// Native controls remain the fallback when playback is blocked or scripting is unavailable.
+document.querySelectorAll('.film-player').forEach(player=>{
+  const video=player.querySelector('video'),cover=player.querySelector('.film-cover');
+  video.controls=false;cover.hidden=false;
+  cover.addEventListener('click',()=>{
+    cover.hidden=true;video.controls=true;video.focus();
+    video.play().catch(()=>{video.controls=true});
+  });
+  video.addEventListener('error',()=>{cover.hidden=true;video.controls=true});
+});
+
 const examples=[...document.querySelectorAll('[data-example]')];
+const exampleTabs=examples[0]?.parentElement;
+function positionExampleIndicator(){
+  const selected=examples.find(tab=>tab.getAttribute('aria-selected')==='true');
+  if(!selected)return;
+  for(const [property,value] of Object.entries({x:selected.offsetLeft,y:selected.offsetTop,width:selected.offsetWidth,height:selected.offsetHeight})){
+    exampleTabs.style.setProperty('--indicator-'+property,value+'px');
+  }
+}
 function selectExample(button){
   examples.forEach(tab=>{const selected=tab===button;tab.setAttribute('aria-selected',String(selected));tab.tabIndex=selected?0:-1;document.getElementById(tab.getAttribute('aria-controls')).hidden=!selected});
+  positionExampleIndicator();
   history.replaceState(null,'','#'+button.getAttribute('aria-controls'));
 }
 const initialExample=examples.find(button=>'#'+button.getAttribute('aria-controls')===location.hash);
 if(initialExample)selectExample(initialExample);
+if(exampleTabs){
+  positionExampleIndicator();
+  exampleTabs.classList.add('has-indicator');
+  const observer=new ResizeObserver(positionExampleIndicator);
+  observer.observe(exampleTabs);
+  examples.forEach(tab=>observer.observe(tab));
+}
 examples.forEach((button,index)=>{
   button.addEventListener('click',()=>selectExample(button));
   button.addEventListener('keydown',event=>{
