@@ -2,8 +2,9 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {runInNewContext} from 'node:vm';
 const code=await readFile(new URL('../xiaoli-greeting.js',import.meta.url),'utf8');
-for(const reduced of [false,true]){
-  const events={};let enter,source='/assets/xiaoli-greeting-poster.webp',writes=0;
+for(const prefix of ['', '/official'])for(const reduced of [false,true]){
+  const poster=`${prefix}/assets/xiaoli-greeting-poster.webp`,animation=`${prefix}/assets/xiaoli-greeting.webp`;
+  const events={};let enter,source=poster,writes=0;
   const image={getAttribute:()=>source,get src(){return source},set src(value){writes++;source=value},addEventListener:(key,fn)=>{events[key]=fn}};
   const motion={matches:reduced,addEventListener:(key,fn)=>{events.motion=fn}};
   const root={querySelector:()=>image};
@@ -12,15 +13,15 @@ for(const reduced of [false,true]){
   assert.equal(writes,0);
   enter([{isIntersecting:true}]);
   if(reduced){assert.equal(writes,0);continue}
-  assert.equal(source,'/assets/xiaoli-greeting.webp');assert.equal(writes,1);
+  assert.equal(source,animation);assert.equal(writes,1);
   for(let i=0;i<5;i++){enter([{isIntersecting:true}]);events.visibility()}
   assert.equal(writes,1,'Visible playback must keep one image source, with no reload per cycle');
-  document.hidden=true;events.visibility();assert.equal(source,'/assets/xiaoli-greeting-poster.webp');
-  document.hidden=false;events.visibility();assert.equal(source,'/assets/xiaoli-greeting.webp');
-  enter([{isIntersecting:false}]);assert.equal(source,'/assets/xiaoli-greeting-poster.webp');
-  enter([{isIntersecting:true}]);motion.matches=true;events.motion();assert.equal(source,'/assets/xiaoli-greeting-poster.webp');
-  motion.matches=false;events.motion();assert.equal(source,'/assets/xiaoli-greeting.webp');
-  events.error();assert.equal(source,'/assets/xiaoli-greeting-poster.webp');
+  document.hidden=true;events.visibility();assert.equal(source,poster);
+  document.hidden=false;events.visibility();assert.equal(source,animation);
+  enter([{isIntersecting:false}]);assert.equal(source,poster);
+  enter([{isIntersecting:true}]);motion.matches=true;events.motion();assert.equal(source,poster);
+  motion.matches=false;events.motion();assert.equal(source,animation);
+  events.error();assert.equal(source,poster);
   const failedWrites=writes;events.error();events.visibility();assert.equal(writes,failedWrites,'Image failure must not cause a retry loop');
 }
 const webp=await readFile(new URL('../assets/xiaoli-greeting.webp',import.meta.url));
