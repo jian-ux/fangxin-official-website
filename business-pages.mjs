@@ -3,7 +3,7 @@ import {focus} from './content/focus.mjs';
 
 export function filmCard(f,l,{esc,safeUrl}){
  const c=pageCopy[l];
- return `<article class="inline-film" id="film-${f.id}"><video controls playsinline preload="none" poster="${f.poster}" src="${f.video}" aria-label="${esc(f[l].title)}"></video><div class="film-meta"><span>${esc(f[l].source||f.source)}</span><span>${f.duration}</span></div><h3>${esc(f[l].title)}</h3><p>${esc(f[l].text)}</p>${f.url?`<a class="text-link" href="${safeUrl(f.url)}" target="_blank" rel="noopener noreferrer">${esc(c.source)} ↗</a>`:''}</article>`;
+ return `<article class="inline-film" id="film-${f.id}"><div class="film-player"><video controls playsinline preload="none" poster="${f.poster}" src="${f.video}" aria-label="${esc(f[l].title)}"></video><button class="film-cover" type="button" hidden aria-label="${esc(f[l].title)}"><span class="film-play" aria-hidden="true"></span></button></div><div class="film-meta"><span>${esc(f[l].source||f.source)}</span><span>${f.duration}</span></div><h3>${esc(f[l].title)}</h3><p>${esc(f[l].text)}</p>${f.url?`<a class="text-link" href="${safeUrl(f.url)}" target="_blank" rel="noopener noreferrer">${esc(c.source)} ↗</a>`:''}</article>`;
 }
 
 export function businessPage(b,l,ctx,wellness=''){

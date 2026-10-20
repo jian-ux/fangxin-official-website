@@ -10,7 +10,8 @@ for(const route of routes){
  const ids=[...html.matchAll(/\sid="([^"]+)"/g)].map(x=>x[1]);
  assert.equal(new Set(ids).size,ids.length,`Duplicate anchor: ${route}`);
  for(const [,video] of html.matchAll(/(<video\b[^>]*>)/g)){
-  assert(video.includes('preload="none"')&&video.includes('controls')&&video.includes('playsinline'),route);
+  assert(video.includes('preload="none"')&&video.includes('playsinline'),route);
+  assert(video.includes('controls'),route);
   assert(!/\sautoplay\b/.test(video),route);
  }
 }
